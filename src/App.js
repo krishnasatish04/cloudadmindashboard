@@ -1,16 +1,14 @@
 // App.js
 import React, { useState } from 'react';
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Home from './components/Home';
-import CloudResourceTable from './components/CloudResourceTable';
 import Resources from './components/Resources';
 
 function App() {
-  const [openSidebarToggle, setOpenSidebarToggle] = React.useState(false);
+  const [openSidebarToggle, setOpenSidebarToggle] = useState(false);
 
   const OpenSidebar = () => {
     setOpenSidebarToggle(!openSidebarToggle);

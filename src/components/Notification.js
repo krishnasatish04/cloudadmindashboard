@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { BsFillBellFill } from 'react-icons/bs';
 import Toast from 'react-bootstrap/Toast';
 import moment from 'moment';
 import 'bootstrap/dist/css/bootstrap.min.css';

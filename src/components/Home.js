@@ -3,9 +3,8 @@ import React, { useState } from 'react';
 import { BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill, BsFillBellFill } from 'react-icons/bs';
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, LineChart, Line,AreaChart, Area } from 'recharts';
 import { PieChart, Pie, Cell } from 'recharts';
-
 import Notification from './Notification';
-import CloudResourceTable from './CloudResourceTable';
+
 
 function Home() {
   const [notificationCount, setNotificationCount] = useState(0);
@@ -155,10 +154,7 @@ function Home() {
           </div>
       
       </div>
-
-      
       <div>
-      {/* <CloudResourceTable resources={cloudResources} /> */}
       </div>
      
 
